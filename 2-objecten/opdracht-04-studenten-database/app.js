@@ -42,17 +42,15 @@ const students = [
 ];
 
 function toonAlleStudenten() {
-  // Selecteer het element waar de studenten getoond worden
   const lijst = document.getElementById('studenten-lijst');
   if (!lijst) return;
 
-  // Maak HTML voor alle studenten
   const html = students.map(student => {
     return `
       <article class="${student.actief ? 'actief' : 'inactief'}">
         <strong>${student.naam}</strong> (${student.leeftijd} jaar)<br>
-        📚 ${student.studie}<br>
-        📊 Cijfer: ${student.cijfer} | Status: ${student.actief ? '✅ Actief' : '❌ Inactief'}
+         ${student.studie}<br>
+        Cijfer: ${student.cijfer} | Status: ${student.actief ? '✅ Actief' : '❌ Inactief'}
       </article>
     `;
   }).join('');
@@ -68,8 +66,8 @@ function toonActieveStudenten() {
     return `
       <article class="${student.actief ? 'actief' : 'inactief'}">
         <strong>${student.naam}</strong> (${student.leeftijd} jaar)<br>
-        📚 ${student.studie}<br>
-        📊 Cijfer: ${student.cijfer} | Status: ${student.actief ? '✅ Actief' : '❌ Inactief'}
+       ${student.studie}<br>
+        Cijfer: ${student.cijfer} | Status: ${student.actief ? ' Actief' : ' Inactief'}
       </article>
     `;
   }).join('');
@@ -85,8 +83,8 @@ function toonTopStudenten() {
     return `
       <article class="${student.actief ? 'actief' : 'inactief'}">
         <strong>${student.naam}</strong> (${student.leeftijd} jaar)<br>
-        📚 ${student.studie}<br>
-        📊 Cijfer: ${student.cijfer} | Status: ${student.actief ? '✅ Actief' : '❌ Inactief'}
+         ${student.studie}<br>
+         Cijfer: ${student.cijfer} | Status: ${student.actief ? ' Actief' : ' Inactief'}
       </article>
     `;
   }).join('');
