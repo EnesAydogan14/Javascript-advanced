@@ -29,7 +29,9 @@ button {
 button:hover {
   background-color: #e9ecef;
 }
+
 input[type='text'],
+
 select {
   padding: 8px;
   margin: 5px;
