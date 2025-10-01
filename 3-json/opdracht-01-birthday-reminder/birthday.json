@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Emma Jansen",
+    "age": 24,
+    "image": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "name": "Lars de Vries",
+    "age": 31,
+    "image": "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    "name": "Sophie Bakker",
+    "age": 28,
+    "image": "https://randomuser.me/api/portraits/women/46.jpg"
+  },
+  {
+    "name": "Daan Visser",
+    "age": 29,
+    "image": "https://randomuser.me/api/portraits/men/47.jpg"
+  },
+  {
+    "name": "Mila van Dijk",
+    "age": 22,
+    "image": "https://randomuser.me/api/portraits/women/48.jpg"
+  },
+  {
+    "name": "Noah Smits",
+    "age": 35,
+    "image": "https://randomuser.me/api/portraits/men/49.jpg"
+  }
+]
